@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="author" content="Omidiran Toheeb"/>
+  <meta name="description" content="How Rheo works — intelligent routing, liquidity optimisation, and native bank delivery for global money movement."/>
+  <title>How It Works — Rheo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        rheo <span class="nav__logo-dot"></span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="work.html" class="active">How it works</a></li>
+        <li><a href="access.html" class="nav__cta">Get early access</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ════════════════════════════════════════
+       HERO
+  ════════════════════════════════════════ -->
+  <section class="hiw-hero">
+    <div class="container" style="width:100%; position:relative; z-index:2;">
+      <div class="hiw-grid" style="padding: 120px 0 80px;">
+        <div>
+          <p class="label reveal" style="margin-bottom:20px;">How it works</p>
+          <h1 class="display-xl reveal reveal-delay-1" style="margin-bottom:20px;">
+            How Rheo moves<br>money globally<br><span class="lime">in real time.</span>
+          </h1>
+          <p class="body-lg reveal reveal-delay-2" style="max-width:480px;">
+            Behind every transaction is an intelligent system that routes, optimises and delivers money across multiple financial networks — invisible to the user, powerful underneath.
+          </p>
+        </div>
+
+        <!-- routing visual -->
+        <!-- <div class="routing-visual reveal reveal-delay-2">
+          <p class="label" style="margin-bottom:20px;">Route scoring — live</p>
+          <div class="provider-row" id="providerBars">
+            <div class="provider-bar">
+              <div class="provider-bar__name">BVNK</div>
+              <div class="provider-bar__track">
+                <div class="provider-bar__fill best" style="width:94%;"></div>
+              </div>
+              <div class="provider-bar__score best">94.2</div>
+            </div>
+            <div class="provider-bar">
+              <div class="provider-bar__name">Lightspark</div>
+              <div class="provider-bar__track">
+                <div class="provider-bar__fill" style="width:87%;"></div>
+              </div>
+              <div class="provider-bar__score">87.1</div>
+            </div>
+            <div class="provider-bar">
+              <div class="provider-bar__name">Thunes</div>
+              <div class="provider-bar__track">
+                <div class="provider-bar__fill" style="width:71%;"></div>
+              </div>
+              <div class="provider-bar__score">71.8</div>
+            </div>
+            <div class="provider-bar">
+              <div class="provider-bar__name">TerraPay</div>
+              <div class="provider-bar__track">
+                <div class="provider-bar__fill" style="width:68%;"></div>
+              </div>
+              <div class="provider-bar__score">68.4</div>
+            </div>
+            <div class="provider-bar">
+              <div class="provider-bar__name">Nomba</div>
+              <div class="provider-bar__track">
+                <div class="provider-bar__fill" style="width:91%;"></div>
+              </div>
+              <div class="provider-bar__score">91.0</div>
+            </div>
+          </div>
+          <div class="routing-decision">
+            <span style="font-size:16px;">✓</span>
+            <div class="routing-decision__text">Selected: BVNK — optimal for NGN → GBP corridor</div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       01 — INTELLIGENT ROUTING
+  ════════════════════════════════════════ -->
+  <section class="section">
+    <div class="container">
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:start;">
+        <div>
+          <p class="label reveal" style="margin-bottom:16px;">01 — Routing</p>
+          <h2 class="display-lg reveal reveal-delay-1" style="margin-bottom:20px;">
+            Intelligent routing<br>with automatic <span class="lime">failover.</span>
+          </h2>
+          <p class="body-md reveal reveal-delay-2" style="margin-bottom:32px;">
+            Our proprietary routing engine evaluates four critical vectors in milliseconds to ensure your money takes the path of least resistance and maximum efficiency.
+          </p>
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;" class="reveal reveal-delay-3">
+            <div class="stat-card">
+              <div class="stat-card__num"><span class="lime">Cost</span></div>
+              <div class="stat-card__label">Real-time fee optimisation across all partners</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-card__num"><span class="lime">Speed</span></div>
+              <div class="stat-card__label">Prioritising instant settlement corridors first</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-card__num"><span class="lime">Uptime</span></div>
+              <div class="stat-card__label">Historical reliability data for every provider</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-card__num"><span class="lime">Liquidity</span></div>
+              <div class="stat-card__label">Depth analysis to prevent settlement failure</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal reveal-delay-2">
+          <div class="card" style="background: var(--black-2); margin-bottom:16px;">
+            <div style="display:flex; align-items:center; gap:12px; margin-bottom:16px;">
+              <span style="width:8px; height:8px; border-radius:50%; background:var(--lime); flex-shrink:0; animation: pulse-dot 2s infinite;"></span>
+              <span class="label">Smart failover</span>
+            </div>
+            <p class="body-md">If a provider's latency spikes or a transaction stalls, Rheo automatically re-routes the funds through an alternative path — in the same transaction, with zero user action required.</p>
+          </div>
+          <div class="card" style="background: var(--black-2);">
+            <div style="display:flex; align-items:center; gap:12px; margin-bottom:16px;">
+              <span style="width:8px; height:8px; border-radius:50%; background:#7EB8FF; flex-shrink:0;"></span>
+              <span style="font-family:var(--font-display); font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:#7EB8FF;">Failover chain</span>
+            </div>
+            <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+              <div class="pill" style="font-size:11px;">Primary</div>
+              <span style="color:var(--white-35); font-size:12px;">→</span>
+              <div class="pill" style="font-size:11px;">Secondary</div>
+              <span style="color:var(--white-35); font-size:12px;">→</span>
+              <div class="pill" style="font-size:11px;">Tertiary</div>
+              <span style="color:var(--white-35); font-size:12px;">→</span>
+              <div class="pill" style="font-size:11px;">Reversed</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       02 — LIQUIDITY HUB
+  ════════════════════════════════════════ -->
+  <section class="section" style="background:var(--black-2); border-top:1px solid var(--border); border-bottom:1px solid var(--border);">
+    <div class="container">
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:center;">
+
+        <!-- hub visual -->
+        <div class="hub-visual reveal">
+          <div class="hub-ring"></div>
+          <div class="hub-ring"></div>
+          <div class="hub-ring"></div>
+          <div class="hub-center">USDC<br>Hub</div>
+          <!-- spokes positioned around center -->
+          <div class="hub-spoke" style="top:20px; left:50%; transform:translateX(-50%);">
+            <div class="hub-spoke__flag">🇬🇧</div>
+            <div class="hub-spoke__label">GBP</div>
+          </div>
+          <div class="hub-spoke" style="top:50%; right:30%; transform:translateY(-50%);">
+            <div class="hub-spoke__flag">🇺🇸</div>
+            <div class="hub-spoke__label">USD</div>
+          </div>
+          <div class="hub-spoke" style="bottom:20px; left:50%; transform:translateX(-50%);">
+            <div class="hub-spoke__flag">🇳🇬</div>
+            <div class="hub-spoke__label">NGN</div>
+          </div>
+          <!-- <div class="hub-spoke" style="top:50%; left:20px; transform:translateY(-50%);">
+            <div class="hub-spoke__flag">🇮🇳</div>
+            <div class="hub-spoke__label">INR</div>
+          </div>
+          <div class="hub-spoke" style="bottom:60px; right:40px;">
+            <div class="hub-spoke__flag">🇲🇽</div>
+            <div class="hub-spoke__label">MXN</div>
+          </div> -->
+        </div>
+
+        <div>
+          <p class="label reveal" style="margin-bottom:16px;">02 — Liquidity</p>
+          <h2 class="display-lg reveal reveal-delay-1" style="margin-bottom:20px;">
+            Smart liquidity,<br><span class="lime">always available.</span>
+          </h2>
+          <p class="body-md reveal reveal-delay-2" style="margin-bottom:32px;">
+            Rheo solves the pre-funding problem with a central USDC hub that connects directly to local currency pools. No waiting for multi-day SWIFT settlements.
+          </p>
+
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;" class="reveal reveal-delay-3">
+            <div class="stat-card">
+              <div class="stat-card__num">99.9<span class="lime">%</span></div>
+              <div class="stat-card__label">Liquidity uptime target</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-card__num">24<span class="lime">/</span>7</div>
+              <div class="stat-card__label">Automated rebalancing</div>
+            </div>
+          </div>
+
+          <div class="card reveal reveal-delay-4" style="margin-top:16px; background:var(--black);">
+            <p class="body-md" style="font-size:14px;">Our treasury management system continuously monitors float levels per corridor. When any drops below 15% of expected daily volume, an automatic rebalancing is triggered — before users are ever affected.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       03 — NO APP FOR RECIPIENT
+  ════════════════════════════════════════ -->
+  <section class="section">
+    <div class="container">
+      <div style="max-width:720px; margin:0 auto; text-align:center;">
+        <p class="label reveal" style="margin-bottom:16px;">03 — Delivery</p>
+        <h2 class="display-lg reveal reveal-delay-1" style="margin-bottom:20px;">
+          Recipients don't need<br>the <span class="lime">Rheo app.</span>
+        </h2>
+        <p class="body-lg reveal reveal-delay-2" style="margin-bottom:60px;">
+          We integrate directly with national payment rails in every country — NIBSS in Nigeria, Faster Payments in the UK, ACH in the US. Your recipient gets paid in their existing bank account. Zero friction. Zero new accounts.
+        </p>
+      </div>
+      <br>
+      <div style="display:grid; grid-template-columns: repeat(5, 1fr); gap:12px;" class="reveal reveal-delay-2">
+        <div class="card" style="text-align:center; padding:24px 16px;">
+          <div style="font-size:26px; margin-bottom:12px;">🇳🇬</div>
+          <div class="display-sm" style="font-size:14px; margin-bottom:6px;">Nigeria</div>
+          <div class="body-sm" style="font-size:11px; color:var(--lime);">NIBSS / NIP</div>
+        </div>
+        <div class="card" style="text-align:center; padding:24px 16px;">
+          <div style="font-size:26px; margin-bottom:12px;">🇬🇧</div>
+          <div class="display-sm" style="font-size:14px; margin-bottom:6px;">UK</div>
+          <div class="body-sm" style="font-size:11px; color:var(--lime);">Faster Payments</div>
+        </div>
+        <div class="card" style="text-align:center; padding:24px 16px;">
+          <div style="font-size:26px; margin-bottom:12px;">🇺🇸</div>
+          <div class="display-sm" style="font-size:14px; margin-bottom:6px;">USA</div>
+          <div class="body-sm" style="font-size:11px; color:var(--lime);">ACH / FedWire</div>
+        </div>
+        <!-- <div class="card" style="text-align:center; padding:24px 16px;">
+          <div style="font-size:26px; margin-bottom:12px;">🇮🇳</div>
+          <div class="display-sm" style="font-size:14px; margin-bottom:6px;">India</div>
+          <div class="body-sm" style="font-size:11px; color:var(--lime);">UPI / IMPS</div>
+        </div>
+        <div class="card" style="text-align:center; padding:24px 16px;">
+          <div style="font-size:26px; margin-bottom:12px;">🇲🇽</div>
+          <div class="display-sm" style="font-size:14px; margin-bottom:6px;">Mexico</div>
+          <div class="body-sm" style="font-size:11px; color:var(--lime);">SPEI</div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       04 — FULL TRANSACTION TIMELINE
+  ════════════════════════════════════════ -->
+  <section class="section" style="background:var(--black-2); border-top:1px solid var(--border); border-bottom:1px solid var(--border);">
+    <div class="container">
+      <div style="display:grid; grid-template-columns: 1fr 1fr; gap:80px; align-items:start;">
+        <div>
+          <p class="label reveal" style="margin-bottom:16px;">04 — Full flow</p>
+          <h2 class="display-lg reveal reveal-delay-1" style="margin-bottom:20px;">
+            Sender to recipient.<br><span class="lime">Step by step.</span>
+          </h2>
+          <p class="body-md reveal reveal-delay-2">
+            This is what happens the moment you press send — across 7 coordinated steps happening in parallel, end-to-end in under 4 minutes.
+          </p>
+        </div>
+
+        <div class="timeline reveal reveal-delay-2">
+          <div class="timeline-item active">
+            <div class="timeline-item__label">Local Collection</div>
+            <div class="timeline-item__body">User sends funds to their Rheo virtual account via local bank transfer. Webhook confirms receipt immediately.</div>
+            <div class="timeline-item__time">T+0s</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-item__label">Compliance Check</div>
+            <div class="timeline-item__body">KYC validation, sanctions screening, and AML checks run automatically on sender and recipient.</div>
+            <div class="timeline-item__time">T+2s</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-item__label">Currency Bridge</div>
+            <div class="timeline-item__body">Local fiat is converted to USDC in the central hub, bypassing slow FX loops and correspondent banks.</div>
+            <div class="timeline-item__time">T+5s</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-item__label">Routing Decision</div>
+            <div class="timeline-item__body">Engine scores all providers and selects the optimal path based on cost, speed, reliability, and available liquidity.</div>
+            <div class="timeline-item__time">T+6s</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-item__label">Global Transfer</div>
+            <div class="timeline-item__body">USDC moves instantly across Rheo's infrastructure to the destination country's liquidity pool.</div>
+            <div class="timeline-item__time">T+15s</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-item__label">Local Payout</div>
+            <div class="timeline-item__body">Pre-funded local pool converts USDC to destination currency and triggers an instant local payout via national rail.</div>
+            <div class="timeline-item__time">T+30s</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-item__label">Recipient Paid ✓</div>
+            <div class="timeline-item__body">Money arrives in recipient's existing bank account. No app required. Sender receives confirmation notification.</div>
+            <div class="timeline-item__time">T+2–4min</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       05 — RELIABILITY
+  ════════════════════════════════════════ -->
+  <section class="section">
+    <div class="container">
+      <div style="max-width:640px; margin-bottom:60px;">
+        <p class="label reveal" style="margin-bottom:16px;">05 — Reliability</p>
+        <h2 class="display-lg reveal reveal-delay-1" style="margin-bottom:20px;">
+          Built for<br><span class="lime">zero failure.</span>
+        </h2>
+        <p class="body-lg reveal reveal-delay-2">
+          Every architectural decision in Rheo is made with one rule: money is never lost. If a transaction cannot complete successfully, it is safely and automatically reversed.
+        </p>
+      </div>
+
+      <div class="reliability-grid">
+        <div class="card card--lime-border reveal reveal-delay-1">
+          <h3 class="display-sm" style="margin-bottom:6px;">Intelligent Retry</h3>
+          <p class="body-md">Automatic exponential backoff retry logic handles temporary provider downtime without any manual intervention or user action.</p>
+        </div>
+        <div class="card reveal reveal-delay-2">
+          <h3 class="display-sm" style="margin-bottom:6px;">Failover Routing</h3>
+          <p class="body-md">Multiple redundant provider paths ensure that if one network goes down, your transfer keeps flowing through an alternative route.</p>
+        </div>
+        <div class="card reveal reveal-delay-3">
+          <h3 class="display-sm" style="margin-bottom:6px;">Immutable Ledger</h3>
+          <p class="body-md">Double-entry bookkeeping for every single internal movement. Every cent is accounted for in real-time. Full audit trail forever.</p>
+        </div>
+        <div class="card card--lime-border reveal reveal-delay-4">
+          <h3 class="display-sm" style="margin-bottom:6px;">Atomic Settlement</h3>
+          <p class="body-md">Every transaction either completes fully or is reversed entirely — using two-phase commit. No partial states. No limbo. No lost money.</p>
+        </div>
+      </div>
+
+      <!-- zero loss banner -->
+      <div class="reveal" style="margin-top:40px; background:var(--lime-glow); border:1px solid var(--border-lime); border-radius:var(--r-lg); padding:32px 40px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:20px;">
+        <div>
+          <div class="label" style="margin-bottom:8px;">Zero transaction loss policy</div>
+          <p class="body-md" style="max-width:520px; color:rgba(255,255,255,0.7);">Every transaction is atomic. It either completes successfully or is safely reversed to the sender's origin. Our architecture guarantees integrity at every single hop.</p>
+        </div>
+        <div style="font-family:var(--font-display); font-size:48px; font-weight:800; color:var(--lime); letter-spacing:-0.04em; white-space:nowrap;">0 lost.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       CTA
+  ════════════════════════════════════════ -->
+  <section class="section cta-section">
+    <div class="container">
+      <h2 class="display-lg reveal" style="margin-bottom:20px; max-width:600px;">
+        Experience a better way<br>to <span class="lime">move money.</span>
+      </h2>
+      <p class="body-lg reveal reveal-delay-1" style="max-width:460px; margin-bottom:40px;">
+        The complexity is ours. The simplicity is yours.
+      </p>
+      <a href="access.html" class="btn btn--lime reveal reveal-delay-2" style="font-size:17px; padding:16px 36px;">
+        Get early access
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer__inner">
+      <a href="index.html" class="footer__logo">rheo<span style="color:var(--lime);">.</span></a>
+      <div class="footer__links">
+        <a href="work.html" class="footer__link">How it works</a>
+        <a href="access.html" class="footer__link">Early access</a>
+        <a href="https://x.com/rheopay" target="_blank" rel="noopener" class="footer__link">@rheopay</a>
+      </div>
+      <span class="footer__copy">© 2026 Rheo Digital Infrastructure Ltd.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
