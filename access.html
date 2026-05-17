@@ -4,17 +4,16 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="author" content="Omidiran Toheeb"/>
-  <meta name="description" content="Get early access to Rheo — the global money routing infrastructure for fast, transparent cross-border transfers."/>
+  <meta name="description" content="Get early access to Rheo — global money routing infrastructure for fast, transparent cross-border transfers."/>
   <title>Get Early Access — Rheo</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="style.css"/>
-  <script src="script.js"></script>
 </head>
 <body>
 
-  <!-- NAV -->
+  <!-- ── NAV ── -->
   <nav class="nav" id="nav">
     <div class="nav__inner">
       <a href="index.html" class="nav__logo">
@@ -27,27 +26,22 @@
     </div>
   </nav>
 
-  <!-- ════════════════════════════════════════
-       HERO
-  ════════════════════════════════════════ -->
+  <!-- ── HERO ── -->
   <section class="hero--access">
     <div class="hero__bg"></div>
-
-    <div class="container" style="width:100%; position:relative; z-index:2;">
+    <div class="container">
       <div class="access-grid">
 
-        <!-- LEFT — copy + perks -->
+        <!-- LEFT -->
         <div>
-          <div class="pill reveal" style="margin-bottom:28px;">
+          <div class="pill access-eyebrow reveal">
             <span class="pill-dot"></span>
             Accepting early testers
           </div>
-
-          <h1 class="display-xl reveal reveal-delay-1" style="margin-bottom:20px;">
-            Be first to<br>send money<br><span class="lime">without borders.</span>
+          <h1 class="display-xl access-headline reveal reveal-delay-1">
+            Be first to<br>send money<br>without borders.
           </h1>
-
-          <p class="body-lg reveal reveal-delay-2" style="margin-bottom:48px;">
+          <p class="body-lg access-sub reveal reveal-delay-2">
             Rheo is building the infrastructure for seamless global money movement. Join our first batch of users and experience international transfers that feel exactly like local ones.
           </p>
 
@@ -77,19 +71,6 @@
               </div>
             </div>
           </div>
-
-          <!-- social proof counter -->
-          <!-- <div class="counter-strip reveal reveal-delay-4">
-            <div class="counter-strip__avatars">
-              <div class="avatar-ring" style="background:#2A4B2A; color:var(--lime);">T</div>
-              <div class="avatar-ring" style="background:#2A3A4B; color:#7EB8FF;">A</div>
-              <div class="avatar-ring" style="background:#4B2A3A; color:#FF9D7E;">K</div>
-              <div class="avatar-ring" style="background:#3A2A4B; color:#C4AAFF;">M</div>
-            </div>
-            <div class="counter-strip__text">
-              <strong id="counter">847</strong> people already on the list
-            </div>
-          </div> -->
         </div>
 
         <!-- RIGHT — form -->
@@ -112,10 +93,10 @@
                   <label for="country">Your country</label>
                   <select id="country" name="country" required>
                     <option value="" disabled selected>Select your country</option>
-                    <option value="NG"> Nigeria</option>
-                    <option value="GB"> United Kingdom</option>
-                    <option value="US"> United States</option>
-                    <option value="other"> Other</option>
+                    <option value="NG">Nigeria</option>
+                    <option value="GB">United Kingdom</option>
+                    <option value="US">United States</option>
+                    <option value="other">Other</option>
                   </select>
                 </div>
                 <div class="form-group">
@@ -129,18 +110,17 @@
                     <option value="other">Other</option>
                   </select>
                 </div>
-                <button type="submit" class="btn btn--lime form__submit">
+                <button type="submit" class="btn btn--black form__submit">
                   Secure my spot
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
               </form>
             </div>
 
-            <!-- success state -->
             <div class="form__success" id="formSuccess">
               <div class="form__success-icon">✓</div>
-              <h3 class="display-sm" style="margin-bottom:10px;">You're on the list.</h3>
-              <p class="body-md" style="max-width:280px; margin:0 auto 20px;">We'll notify you when your batch opens. Follow us on X for updates.</p>
+              <h3 class="display-sm form__success-title">You're on the list.</h3>
+              <p class="body-md form__success-body">We'll notify you when your batch opens. Follow us on X for updates.</p>
               <a href="https://x.com/rheopay" target="_blank" rel="noopener" class="btn btn--outline btn--sm">@rheopay on X</a>
             </div>
           </div>
@@ -150,68 +130,50 @@
     </div>
   </section>
 
-  <!-- ════════════════════════════════════════
-       CORRIDORS
-  ════════════════════════════════════════ -->
-  <section class="section--sm" style="border-top: 1px solid var(--border);">
+  <!-- ── CORRIDORS ── -->
+  <section class="section--sm corridors-section">
     <div class="container">
-      <p class="label reveal" style="text-align:center; margin-bottom:32px;">Launch corridors</p>
-      <br>
-       <p class="body-sm reveal reveal-delay-2" style="text-align:center; margin-top:20px;">All corridors are fully bidirectional — everyone can send to everyone.</p>
-       <br>
-      <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:12px;" class="reveal reveal-delay-1">
-        <div class="card" style="flex:1; min-width:140px; max-width:180px; text-align:center; padding:20px 16px;">
-          <div style="font-size:30px; margin-bottom:10px;">🇳🇬</div>
-          <div class="display-sm" style="font-size:15px;">Nigeria</div>
-          <div class="body-sm">NGN</div>
+      <p class="label corridors-label reveal">Launch corridors</p>
+      <p class="body-sm corridors-note-top reveal">All corridors are fully bidirectional — everyone can send to everyone.</p>
+      <div class="corridors-grid reveal reveal-delay-1">
+        <div class="card corridor-card">
+          <div class="corridor-card__flag">🇳🇬</div>
+          <div class="display-sm corridor-card__name">Nigeria</div>
+          <div class="body-sm corridor-card__code">NGN</div>
         </div>
-        <div class="card" style="flex:1; min-width:140px; max-width:180px; text-align:center; padding:20px 16px;">
-          <div style="font-size:30px; margin-bottom:10px;">🇬🇧</div>
-          <div class="display-sm" style="font-size:15px;">United Kingdom</div>
-          <div class="body-sm">GBP</div>
+        <div class="card corridor-card">
+          <div class="corridor-card__flag">🇬🇧</div>
+          <div class="display-sm corridor-card__name">United Kingdom</div>
+          <div class="body-sm corridor-card__code">GBP</div>
         </div>
-        <div class="card" style="flex:1; min-width:140px; max-width:180px; text-align:center; padding:20px 16px;">
-          <div style="font-size:30px; margin-bottom:10px;">🇺🇸</div>
-          <div class="display-sm" style="font-size:15px;">United States</div>
-          <div class="body-sm">USD</div>
+        <div class="card corridor-card">
+          <div class="corridor-card__flag">🇺🇸</div>
+          <div class="display-sm corridor-card__name">United States</div>
+          <div class="body-sm corridor-card__code">USD</div>
         </div>
-        <!-- <div class="card" style="flex:1; min-width:140px; max-width:180px; text-align:center; padding:20px 16px;">
-          <div style="font-size:30px; margin-bottom:10px;">🇮🇳</div>
-          <div class="display-sm" style="font-size:15px;">India</div>
-          <div class="body-sm">INR</div>
-        </div>
-        <div class="card" style="flex:1; min-width:140px; max-width:180px; text-align:center; padding:20px 16px;">
-          <div style="font-size:30px; margin-bottom:10px;">🇲🇽</div>
-          <div class="display-sm" style="font-size:15px;">Mexico</div>
-          <div class="body-sm">MXN</div>
-        </div>
-      </div> 
-      <p class="body-sm reveal reveal-delay-2" style="text-align:center; margin-top:20px;">All corridors are fully bidirectional — everyone can send to everyone.</p> -->
+      </div>
     </div>
   </section>
 
-  <!-- ════════════════════════════════════════
-       FINAL CTA
-  ════════════════════════════════════════ -->
+  <!-- ── FINAL CTA ── -->
   <section class="section cta-section">
     <div class="container">
-      <h2 class="display-lg reveal" style="margin-bottom:20px; max-width:560px;">
-        Ready to experience<br>the future of <span class="lime">flow?</span>
-      </h2>
-      <p class="body-lg reveal reveal-delay-1" style="max-width:460px; margin-bottom:40px;">
-        We are onboarding to guarantee quality. <br> Secure your spot.
-      </p>
-      <a href="#accessForm" class="btn btn--lime reveal reveal-delay-2" style="font-size:17px; padding:16px 36px;" onclick="document.getElementById('email').focus(); return false;">
-        Get early access
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
+      <h3 class="display-lg cta-title reveal reveal-delay-1">
+        Ready to experience the future of global money movement?
+      </h3>
+      <div class="cta-btn-wrap reveal reveal-delay-2">
+        <a href="#formWrap" class="btn btn--black access-cta-btn">
+          Get early access
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
     </div>
   </section>
 
-  <!-- FOOTER -->
+  <!-- ── FOOTER ── -->
   <footer>
     <div class="footer__inner">
-      <a href="index.html" class="footer__logo">rheo<span style="color:var(--lime);">.</span></a>
+      <a href="index.html" class="footer__logo">rheo<span class="footer__logo-dot">.</span></a>
       <div class="footer__links">
         <a href="work.html" class="footer__link">How it works</a>
         <a href="https://x.com/rheopay" target="_blank" rel="noopener" class="footer__link">@rheopay</a>

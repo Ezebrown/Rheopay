@@ -13,9 +13,7 @@
 </head>
 <body>
 
-  <!-- ════════════════════════════════════════
-       NAVIGATION
-  ════════════════════════════════════════ -->
+  <!-- ── NAV ── -->
   <nav class="nav" id="nav">
     <div class="nav__inner">
       <a href="index.html" class="nav__logo">
@@ -28,38 +26,33 @@
     </div>
   </nav>
 
-  <!-- ════════════════════════════════════════
-       HERO
-  ════════════════════════════════════════ -->
+  <!-- ── HERO ── -->
   <section class="hero">
     <div class="hero__bg"></div>
-
     <div class="hero__inner">
       <div class="hero__eyebrow reveal">
-        <div class="hero__line"></div>
+        <div class="pill">
+          <span class="pill-dot"></span>
+          Building global money routing infrastructure
+        </div>
       </div>
-
       <h1 class="hero__title reveal reveal-delay-1">
         Money moves globally.<br>
         Feels <span class="highlight">locally.</span>
       </h1>
-
       <p class="hero__sub reveal reveal-delay-2">
-        Send money to any of our supported countries at the real mid-market rate. Your recipient gets paid directly into their bank — no app, no signup, no friction.
+        Send money to any of our supported countries at the real mid-market rate. Your recipient gets paid directly into their bank.
       </p>
-
       <div class="hero__actions reveal reveal-delay-3">
-        <a href="access.html" class="btn btn--lime">
+        <a href="access.html" class="btn btn--black">
           Get early access
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
-        <a href="work.html" class="btn btn--outline">
-          See how it works
-        </a>
+        <a href="work.html" class="btn btn--outline">See how it works</a>
       </div>
     </div>
 
-    <!-- floating transfer card -->
+    <!-- floating card -->
     <div class="hero__card-float reveal reveal-delay-4">
       <div class="transfer-card">
         <div class="transfer-card__header">
@@ -70,7 +63,7 @@
         </div>
         <div class="transfer-card__amount">₦ 150,000</div>
         <div class="transfer-card__meta">
-          <span>→</span> Recipient gets <strong style="color:var(--white)">£ 73.84</strong>
+          <span>→</span> Recipient gets <strong>£ 73.84</strong>
         </div>
         <div class="transfer-card__route">
           <span class="route-flag">🇳🇬</span>
@@ -85,42 +78,15 @@
     </div>
   </section>
 
-  <!-- ════════════════════════════════════════
-       STATS ROW
-  ════════════════════════════════════════ -->
-  <!-- <section class="section--sm">
-    <div class="container">
-      <div class="stats-row reveal">
-        <div class="stats-row__item">
-          <div class="stats-row__num"><span class="lime">5</span></div>
-          <div class="stats-row__label">Launch corridors</div>
-        </div>
-        <div class="stats-row__item">
-          <div class="stats-row__num">&lt;<span class="lime">4</span>m</div>
-          <div class="stats-row__label">Transfer target time</div>
-        </div>
-        <div class="stats-row__item">
-          <div class="stats-row__num"><span class="lime">0</span>%</div>
-          <div class="stats-row__label">FX markup hidden</div>
-        </div>
-        <div class="stats-row__item">
-          <div class="stats-row__num"><span class="lime">All</span></div>
-          <div class="stats-row__label">Countries — our goal</div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- ════════════════════════════════════════
-       PROBLEM SECTION
-  ════════════════════════════════════════ -->
+  <!-- ── PROBLEM ── -->
   <section class="section problem-section">
     <div class="container">
       <div class="problem-grid">
+
         <div>
           <p class="label reveal">The problem</p>
-          <h2 class="display-lg reveal reveal-delay-1" style="margin-top:16px; margin-bottom:24px;">
-            Sending money abroad<br>is still <span class="lime">broken.</span>
+          <h2 class="display-lg problem-eyebrow reveal reveal-delay-1">
+            Sending money abroad<br>is still broken.
           </h2>
           <p class="body-md reveal reveal-delay-2">
             Traditional systems were built for a static world. Today, global movement of money is demanded every second — and the infrastructure hasn't caught up.
@@ -129,47 +95,42 @@
 
         <div class="problem-list">
           <div class="problem-item reveal reveal-delay-1">
-            <span class="problem-item__num">01</span>
             <div>
               <div class="problem-item__title">Slow Transfers</div>
               <div class="problem-item__body">Money gets stuck in legacy correspondent banking loops for days, not minutes. Your family waits. Your business stalls.</div>
             </div>
           </div>
           <div class="problem-item reveal reveal-delay-2">
-            <span class="problem-item__num">02</span>
             <div>
               <div class="problem-item__title">Hidden Markups</div>
               <div class="problem-item__body">Vague exchange rates and mystery fees drain value silently. By the time money arrives, 5–8% has vanished into someone else's pocket.</div>
             </div>
           </div>
           <div class="problem-item reveal reveal-delay-3">
-            <span class="problem-item__num">03</span>
             <div>
               <div class="problem-item__title">Zero Transparency</div>
               <div class="problem-item__body">Unknown outcomes and no real-time tracking. A "send and pray" approach to something that deeply matters to people.</div>
             </div>
           </div>
           <div class="problem-item reveal reveal-delay-4">
-            <span class="problem-item__num">04</span>
             <div>
               <div class="problem-item__title">Recipient Friction</div>
               <div class="problem-item__body">Recipients are forced to download new apps or open new accounts just to receive money. That should never happen.</div>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
 
-  <!-- ════════════════════════════════════════
-       SOLUTION SECTION
-  ════════════════════════════════════════ -->
+  <!-- ── SOLUTION ── -->
   <section class="section">
     <div class="container">
       <div class="solution-header reveal">
-        <p class="label">The solution</p>
-        <h2 class="display-lg" style="margin-top:16px; margin-bottom:20px;">
-          Intelligent routing.<br><span class="lime">Zero friction.</span>
+        <p class="label solution-label">The solution</p>
+        <h2 class="display-lg solution-title">
+          Intelligent routing.<br>Zero friction.
         </h2>
         <p class="body-lg">
           Our payment orchestration layer dynamically selects the best route for every transaction based on cost, speed, and real-time reliability — in milliseconds.
@@ -177,21 +138,20 @@
       </div>
 
       <div class="solution-grid">
-        <div class="card card--lime-border reveal reveal-delay-1">
-          <h3 class="display-sm" style="margin-bottom:10px;">Auto-Route Switching</h3>
+        <div class="card card--accent-border reveal reveal-delay-1">
+          <h3 class="display-sm">Auto-Route Switching</h3>
           <p class="body-md">If a provider stalls or latency spikes, Rheo instantly re-routes through an alternative path. Your transfer keeps moving, always.</p>
         </div>
-        <div class="card card--lime-border reveal reveal-delay-2">
-          <h3 class="display-sm" style="margin-bottom:10px;">Liquidity Optimisation</h3>
+        <div class="card card--accent-border reveal reveal-delay-2">
+          <h3 class="display-sm">Liquidity Optimisation</h3>
           <p class="body-md">A central USDC hub and pre-funded local currency pools ensure money is always available to settle instantly in the destination country.</p>
         </div>
-        <div class="card card--lime-border reveal reveal-delay-3">
-          <h3 class="display-sm" style="margin-bottom:10px;">Native Bank Delivery</h3>
+        <div class="card card--accent-border reveal reveal-delay-3">
+          <h3 class="display-sm">Native Bank Delivery</h3>
           <p class="body-md">Recipients never need the Rheo app. Funds arrive directly in their existing local bank account — just like a domestic transfer.</p>
         </div>
       </div>
 
-      <!-- step flow -->
       <div class="step-flow reveal">
         <div class="step">
           <div class="step__num active">1</div>
@@ -217,94 +177,54 @@
     </div>
   </section>
 
-  <!-- ════════════════════════════════════════
-       PRICING SECTION
-  ════════════════════════════════════════ -->
-  <section class="section" style="background: var(--black-2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+  <!-- ── PRICING ── -->
+  <section class="section pricing-section">
     <div class="container">
       <div class="pricing-grid">
+
         <div>
-          <p class="label reveal">Pricing</p>
-          <h2 class="display-lg reveal reveal-delay-1" style="margin-top:16px; margin-bottom:20px;">
-            Clear pricing.<br><span class="lime">No surprises.</span>
+          <p class="label pricing-label reveal">Pricing</p>
+          <h2 class="display-lg pricing-title reveal reveal-delay-1">
+            Clear pricing.<br>No surprises.
           </h2>
-          <p class="body-md reveal reveal-delay-2" style="margin-bottom:32px;">
+          <p class="body-md pricing-body reveal reveal-delay-2">
             We use the true mid-market rate — the one you see on Google. Our revenue comes from a single transparent fee shown before you confirm. Nothing hidden. Ever.
           </p>
-          <div style="display:flex; flex-direction:column; gap:12px;" class="reveal reveal-delay-3">
-            <div style="display:flex; align-items:center; gap:12px;">
-              <span style="color:var(--lime); font-size:16px;">✓</span>
-              <span class="body-md" style="font-size:15px;">Real mid-market exchange rate</span>
+          </div>
+
+          <div>
+          <div class="pricing-checks reveal reveal-delay-3">
+            <div class="pricing-check-item">
+              <span class="pricing-check-mark">✓</span>
+              <span class="pricing-check-text">Real mid-market exchange rate</span>
             </div>
-            <div style="display:flex; align-items:center; gap:12px;">
-              <span style="color:var(--lime); font-size:16px;">✓</span>
-              <span class="body-md" style="font-size:15px;">Fee shown in your local currency before you send</span>
+            <div class="pricing-check-item">
+              <span class="pricing-check-mark">✓</span>
+              <span class="pricing-check-text">Fee shown in your local currency before you send</span>
             </div>
-            <div style="display:flex; align-items:center; gap:12px;">
-              <span style="color:var(--lime); font-size:16px;">✓</span>
-              <span class="body-md" style="font-size:15px;">Exact recipient amount confirmed upfront</span>
+            <div class="pricing-check-item">
+              <span class="pricing-check-mark">✓</span>
+              <span class="pricing-check-text">Exact recipient amount confirmed upfront</span>
             </div>
-            <div style="display:flex; align-items:center; gap:12px;">
-              <span style="color:var(--lime); font-size:16px;">✓</span>
-              <span class="body-md" style="font-size:15px;">No landing fees or correspondent bank deductions</span>
+            <div class="pricing-check-item">
+              <span class="pricing-check-mark">✓</span>
+              <span class="pricing-check-text">No landing fees or correspondent bank deductions</span>
             </div>
           </div>
         </div>
-
-        <!-- <div class="reveal reveal-delay-2">
-          <div class="pricing-comparison">
-            <div class="pricing-comparison__header">
-              <div class="pricing-comparison__col-label">Amount</div>
-              <div class="pricing-comparison__col-label">Others (avg)</div>
-              <div class="pricing-comparison__col-label ours">Rheo fee</div>
-            </div>
-            <div class="pricing-row">
-              <div class="pricing-row__amount">$50</div>
-              <div class="pricing-row__fee">~$3.10</div>
-              <div class="pricing-row__fee ours">$1.83</div>
-            </div>
-            <div class="pricing-row">
-              <div class="pricing-row__amount">$100</div>
-              <div class="pricing-row__fee">~$5.20</div>
-              <div class="pricing-row__fee ours">$2.93</div>
-            </div>
-            <div class="pricing-row">
-              <div class="pricing-row__amount">$250</div>
-              <div class="pricing-row__fee">~$7.80</div>
-              <div class="pricing-row__fee ours">$5.12</div>
-            </div>
-            <div class="pricing-row">
-              <div class="pricing-row__amount">$500</div>
-              <div class="pricing-row__fee">~$12.50</div>
-              <div class="pricing-row__fee ours">$7.94</div>
-            </div>
-            <div class="pricing-row">
-              <div class="pricing-row__amount">$1,000</div>
-              <div class="pricing-row__fee">~$22.00</div>
-              <div class="pricing-row__fee ours">$13.04</div>
-            </div>
-            <div class="pricing-row">
-              <div class="pricing-row__amount">$5,000</div>
-              <div class="pricing-row__fee">~$85.00</div>
-              <div class="pricing-row__fee ours">$45.00</div>
-            </div> 
-          </div>
-          <p class="body-sm" style="text-align:center; margin-top:12px;">Fee computed dynamically per corridor. No hidden additions.</p>
-        </div> -->
       </div>
     </div>
   </section>
 
-  <!-- ════════════════════════════════════════
-       CORE STACK SECTION
-  ════════════════════════════════════════ -->
+  <!-- ── STACK ── -->
   <section class="section stack-section">
     <div class="container">
       <div class="stack-grid">
+
         <div>
-          <p class="label reveal">The core stack</p>
-          <h2 class="display-lg reveal reveal-delay-1" style="margin-top:16px; margin-bottom:40px;">
-            Infrastructure first.<br><span class="lime">Always.</span>
+          <p class="label stack-label reveal">The core stack</p>
+          <h2 class="display-lg stack-title reveal reveal-delay-1">
+            Infrastructure first.
           </h2>
           <div class="stack-list">
             <div class="stack-item reveal reveal-delay-1">
@@ -338,13 +258,12 @@
           </div>
         </div>
 
-        <!-- terminal -->
         <div class="terminal reveal reveal-delay-2">
           <div class="terminal__bar">
-            <div class="terminal__dot" style="background:#FF5F57;"></div>
-            <div class="terminal__dot" style="background:#FFBD2E;"></div>
-            <div class="terminal__dot" style="background:#27C93F;"></div>
-            <span style="margin-left:8px; font-size:11px; color:rgba(255,255,255,0.3); font-family:'Courier New';">rheo — routing engine</span>
+            <div class="terminal__dot terminal__dot--red"></div>
+            <div class="terminal__dot terminal__dot--yellow"></div>
+            <div class="terminal__dot terminal__dot--green"></div>
+            <span class="terminal__label">rheo — routing engine</span>
           </div>
           <div class="terminal__body">
             <div><span class="t-dim">// Transaction initiated</span></div>
@@ -356,8 +275,8 @@
             <br>
             <div><span class="t-dim">// Scoring providers…</span></div>
             <div><span class="t-lime">✓</span> <span class="t-white">Primary</span><span class="t-dim"> score: </span><span class="t-lime">94.2</span></div>
-            <div><span class="t-dim">✗ Secondary</span> <span class="t-dim">score: 71.8</span></div>
-            <div><span class="t-dim">✗ Tertiary</span> <span class="t-dim">score: 68.4</span></div>
+            <div><span class="t-dim">✗ Secondary score: 71.8</span></div>
+            <div><span class="t-dim">✗ Tertiary  score: 68.4</span></div>
             <br>
             <div><span class="t-dim">// Selected: </span><span class="t-lime">Primary</span></div>
             <div><span class="t-dim">// ETA: </span><span class="t-lime">~2 minutes</span></div>
@@ -366,62 +285,36 @@
             <div><span class="t-lime">→ Transfer confirmed. Routing now.</span></div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
 
-  <!-- ════════════════════════════════════════
-       FUTURE SECTION
-  ════════════════════════════════════════ -->
+  <!-- ── ROADMAP ── -->
   <section class="section">
     <div class="container">
-      <div style="max-width:680px; margin-bottom:64px;">
-        <p class="label reveal">The roadmap</p>
-        <h2 class="display-lg reveal reveal-delay-1" style="margin-top:16px; margin-bottom:20px;">
-          Building the future<br>of <span class="lime">global payments.</span>
-        </h2>
-        <p class="body-lg reveal reveal-delay-2">
-          Rheo is not just a transfer app. We are building the rails themselves — a fluid mesh that bridges traditional finance, digital assets, and emerging markets. Our mission: make the word "international" irrelevant for money.
-        </p>
-      </div>
-
-      <!-- <div class="future-grid">
-        <div class="card reveal reveal-delay-1">
-          <div style="font-size:11px; font-family:var(--font-display); font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:var(--lime); margin-bottom:16px;">Phase 1 — Now</div>
-          <h3 class="display-sm" style="margin-bottom:10px;">Consumer Remittance App</h3>
-          <p class="body-md">5 corridors. Fast, transparent transfers. Premium mobile experience. Recipient needs no Rheo account.</p>
-        </div>
-        <div class="card reveal reveal-delay-2">
-          <div style="font-size:11px; font-family:var(--font-display); font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:var(--white-35); margin-bottom:16px;">Phase 2 — Year 2</div>
-          <h3 class="display-sm" style="margin-bottom:10px;">Scale + SME Tools</h3>
-          <p class="body-md">Expand corridors globally. Business payment tools. Batch payments. Team approvals. Volume pricing.</p>
-        </div>
-        <div class="card reveal reveal-delay-3">
-          <div style="font-size:11px; font-family:var(--font-display); font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:var(--white-35); margin-bottom:16px;">Phase 3 — Year 6+</div>
-          <h3 class="display-sm" style="margin-bottom:10px;">Infrastructure Layer</h3>
-          <p class="body-md">Banks and fintechs integrate Rheo via API/SDK. We become the settlement layer. Liquidity-as-a-Service.</p>
-        </div>
-      </div> -->
+      <p class="label future-eyebrow reveal">The roadmap</p>
+      <h2 class="display-lg future-title reveal reveal-delay-1">
+        Building the future<br>of global payments.
+      </h2>
+      <p class="body-lg future-body reveal reveal-delay-2">
+        Rheo is not just a transfer app. We are building the rails themselves — a fluid mesh that bridges traditional finance, digital assets, and emerging markets. Our mission: make the word "international" irrelevant for money.
+      </p>
     </div>
   </section>
 
-  <!-- ════════════════════════════════════════
-       CTA
-  ════════════════════════════════════════ -->
+  <!-- ── CTA ── -->
   <section class="section cta-section">
     <div class="container">
-      <div class="pill reveal" style="width:fit-content; margin-bottom:32px;">
+      <div class="pill cta-pill reveal">
         <span class="pill-dot"></span>
         Early access open now
       </div>
-      <h2 class="display-lg reveal reveal-delay-1" style="margin-bottom:20px; max-width:680px;">
-        Be the first to experience<br><span class="lime">borderless money.</span>
+      <h2 class="display-lg cta-title reveal reveal-delay-1">
+        Be the first to experience borderless money transfers.
       </h2>
-      <p class="body-lg reveal reveal-delay-2" style="max-width:520px; margin-bottom:48px;">
-        We will be onboarding users in controlled batches to ensure the highest quality of service. Secure your spot today.
-      </p>
-      <div class="reveal reveal-delay-3">
-        <a href="access.html" class="btn btn--lime" style="font-size:17px; padding:16px 36px;">
+      <div class="cta-btn-wrap reveal reveal-delay-3">
+        <a href="access.html" class="btn btn--black cta-btn">
           Get early access
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
@@ -429,18 +322,16 @@
     </div>
   </section>
 
-  <!-- ════════════════════════════════════════
-       FOOTER
-  ════════════════════════════════════════ -->
+  <!-- ── FOOTER ── -->
   <footer>
     <div class="footer__inner">
-      <span class="footer__logo">rheo<span style="color:var(--lime);">.</span></span>
+      <span class="footer__logo">rheo<span class="footer__logo-dot">.</span></span>
       <div class="footer__links">
         <a href="work.html" class="footer__link">How it works</a>
         <a href="access.html" class="footer__link">Early access</a>
         <a href="https://x.com/rheopay" target="_blank" rel="noopener" class="footer__link">@rheopay</a>
       </div>
-      <span class="footer__copy">© 2026 Rheo Digital Infrastructure Ltd.</span>
+      <span class="footer__copy">&copy; 2026 Rheo Digital Infrastructure Ltd.</span>
     </div>
   </footer>
 
